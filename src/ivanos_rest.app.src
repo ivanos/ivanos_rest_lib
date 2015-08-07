@@ -1,0 +1,15 @@
+{application, ivanos_rest,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  jiffy,
+                  lager,
+                  erl_cowboy
+                 ]},
+  {mod, { ivanos_rest_app, []}},
+  {env, []}
+ ]}.
